@@ -40,18 +40,18 @@ public class BuffyOrder_8_Success_Step8 {
 
 		Thread.sleep(2000);
 
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"list-group\"]/a[3]"))).click();
-
-		Thread.sleep(2000);
-	
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"col-lg-9\"]/div/div[5]/div/div/h4/a"))).click();
-
-		Thread.sleep(2000);
-
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"tbodyid\"]/div[2]/div/a"))).click();
-
-		Thread.sleep(3000);
-		driver.switchTo().alert().accept();
+//		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"list-group\"]/a[3]"))).click();
+//
+//		Thread.sleep(2000);
+//	
+//		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class=\"col-lg-9\"]/div/div[5]/div/div/h4/a"))).click();
+//
+//		Thread.sleep(2000);
+//
+//		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"tbodyid\"]/div[2]/div/a"))).click();
+//
+//		Thread.sleep(3000);
+//		driver.switchTo().alert().accept();
 
 		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("cartur"))).click();
 		Thread.sleep(2000);
