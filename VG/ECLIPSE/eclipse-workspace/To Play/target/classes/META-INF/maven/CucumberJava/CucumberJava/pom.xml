@@ -36,6 +36,13 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.1.4</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.percy/percy-java-selenium -->
+		<dependency>
+			<groupId>io.percy</groupId>
+			<artifactId>percy-java-selenium</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 
 
 	</dependencies>

@@ -20,7 +20,7 @@ public class BuffyOrder_8_Success_Step8 {
 
 
 		String path = System.getProperty("user.dir");
-		System.out.println(path);
+		//System.out.println(path);
 		System.setProperty("webdriver.chrome.driver", path+"/src/main/resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
